@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>JecsLite - A RimWorld of Magic</name>
+    <author>Zaljerem</author>
+    <url></url>
+    <supportedVersions><li>1.4</li><li>1.5</li><li>1.6</li></supportedVersions>
+    <packageId>zal.jecsliterwom</packageId>
+	<modDependencies />  
+  <loadBefore>
+<li>Torann.ARimworldOfMagic</li>
+</loadBefore>	
+<modVersion IgnoreIfNoMatchingField="True">1.0.3</modVersion>
+<description>
+This mod is meant to be used as a replacement for the full JecsTools suite when using "A RimWorld of Magic".
+https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956
+
+It contains the JecsTools components required for RWoM, and nothing else:
+
+AbilityUser
+AbilityUserAI
+CompDeflector
+CompLumbering
+CompOversizedWeapon
+
+Please note that these come directly from JecsTools without modification.
+With this you'll at least be running a little lighter - no need to load a bunch of code you aren't going to use anyway.
+
+JecsTools
+(MIT License)
+https://steamcommunity.com/sharedfiles/filedetails/?id=932008009
+https://github.com/jecrell/JecsTools
+
+Thanks to Jecrell for JecsTools, Torann for A RimWorld of Magic, and to Roque the Rogue for testing.
+
+FAQ:
+
+Q: RWoM reports JecsTools not found, why?
+A: You can ignore that; RWoM looks for the full JecsTools. This mod provides all the JecsTools components required by RWoM.
+
+Q: Does this mod replace Hugslib as well?
+A: No.
+
+Q: Are these components updated/optimized/improved?
+A: No. They come directly from the 1.5 version of JecsTools.
+
+Q: Can you fix x, y, and z?
+A: No. This is simply a replacement for the full JecsTools as a pre-req for A RimWorld of Magic. You should contact Torann regarding issues with RWoM. Any existing issues in the JecsTools code will remain as I source directly from the 1.5 version of that mod.
+</description>
+</ModMetaData>

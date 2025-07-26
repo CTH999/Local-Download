@@ -1,0 +1,7 @@
+1.0.0 - 8/19/2024 - created
+
+1.0.1 - 8/23/2024 - minor fix (language keys)
+
+1.0.2 - 8/26/2024 - added 1.4 support
+
+1.0.3 - 4/13/2025 - updated to 1.6
